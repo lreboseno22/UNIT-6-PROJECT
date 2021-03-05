@@ -1,0 +1,157 @@
+body {
+	background-color: black;
+}
+
+h1 {
+	font-family: 'Frijole', cursive;
+    font-size: 30px; 
+    color: red; 
+}
+
+.title {
+    position: absolute;
+    margin-left: 1180px;
+    margin-top: 15px;
+    
+}
+
+h2 {
+	color: grey;
+    display: flex;
+    justify-content: center;
+    font-size:45px;
+    
+}
+
+.story {
+	text-align: center;
+	font-size: 35px;
+}
+
+
+.first {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+}
+
+.hanger {
+	position: absolute;
+    margin-left: 50px;
+    margin-top: 1px;
+}
+
+button {
+    font-family: 'Eater', cursive;
+    background-color: black;
+    border: grey 2px solid;
+    color:white;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.next {
+	position: absolute;
+    margin-left: 1300px;
+	margin-top:530px;
+    font-size: 25px;
+}
+
+button:hover {
+	background-color: red;
+}
+
+.bedroom {
+	display: none;
+    position: absolute;
+}
+.part2 {
+	display: none;
+    position: absolute;
+    
+}
+.part2v2 {
+	display: none;
+	position: absolute;
+    left: 100px;
+    top: 350px;
+}
+.noise {
+	display:none;
+    position: absolute;
+}
+
+.part3{
+	display:none;   
+}
+
+.part3v2 {
+	display: none;
+}
+
+.next2{
+	display:none; 
+    position: absolute;
+    margin-left: 1300px;
+	margin-top:700px;
+    font-size: 25px;
+    
+}
+
+.next3{
+	display:none;
+    font-size:30px;
+    margin-left: 530px;
+}
+
+
+.yes {
+	display:none;
+    position: absolute;
+    font-size: 45px;
+    left: 100px;
+    top: 460px;
+}
+
+.no {
+    display:none;
+    position: absolute;
+    font-size: 45px;
+    left: 600px;
+    top: 460px;
+}
+
+.next4 {
+	display: none;
+    position: absolute;
+    margin-left: 1100px;
+	margin-top:500px;
+    font-size: 25px;
+}
+
+.flash {
+	display:none;
+    position: absolute;
+}
+
+.end {
+	display:none;
+    position: absolute;
+}
+
+.endv2 {
+	display:none;
+	position: absolute;
+    color: white;
+}
+
+.surprise {
+	display: none;
+    width:100%;  
+}
+
+.surprisev2{
+	display: none;
+    width:100%;
+}
